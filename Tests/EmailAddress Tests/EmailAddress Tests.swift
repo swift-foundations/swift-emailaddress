@@ -9,8 +9,8 @@
 //
 // ===----------------------------------------------------------------------===//
 
-import Testing
 import EmailAddress
+import Testing
 
 @Suite
 struct EmailAddressTests {
