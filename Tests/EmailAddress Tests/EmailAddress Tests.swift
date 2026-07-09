@@ -12,9 +12,10 @@
 import EmailAddress
 import Testing
 
-@Suite
-struct `Email Address Tests` {
-    @Test
-    func `EmailAddress module re-exports EmailAddress_Standard`() {
+extension EmailAddress {
+    @Suite struct Test {
+        @Test
+        func `EmailAddress module re-exports EmailAddress_Standard`() {
+        }
     }
 }
