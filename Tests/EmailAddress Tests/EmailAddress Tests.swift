@@ -13,7 +13,7 @@ import EmailAddress
 import Testing
 
 @Suite
-struct EmailAddressTests {
+struct `Email Address Tests` {
     @Test
     func `EmailAddress module re-exports EmailAddress_Standard`() {
     }
